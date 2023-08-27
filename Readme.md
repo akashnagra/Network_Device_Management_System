@@ -63,6 +63,6 @@ Once the application is up and running, you can use tools like Postman or cURL t
     ]
 - `PUT http://localhost:8080/Devices/{deviceId}`: Update information of an existing device.
 - `DELETE http://localhost:8080/Devices/{deviceId}`: Delete a device.
-- `GET http://localhost:8080/Devices/statistics/total`: Get the total number of devices.
-- `GET http://localhost:8080/Devices/statistics/brand-distribution`: Get device distribution by brand.
+- `GET http://localhost:8080/Devices/stats/total`: Get the total number of devices.
+- `GET http://localhost:8080/Devices/stats/brand-distribution`: Get device distribution by brand.
 
